@@ -1,4 +1,4 @@
-// // Default using lists
+// // // Default using lists
 // import React from 'react';
 // import './App.css';
 
@@ -19,23 +19,28 @@
 //       <header className="App-header">
 //         <h1>React JS List and Keys</h1>
 
-//         <ul>
-//           {Courses.map((data) => (
-//             <li>{data.name}</li>
-//           ))}
-//         </ul>
+//         {/* <ul>
+//         {Courses.map((data)=>(
+//           <li>{data.name}</li>
+//         ))}
+//         </ul> */}
 
-//         <ul>
-//           {Courses.map((data) => (
-//             <li key={data.id}>{data.name}</li>
-//           ))}
-//         </ul>
+//         {/* <ul>
+//         {Courses.map((data)=>(
+//           <li key={data.id}>{data.name}</li>
+//         ))}
+//         </ul> */}
 
+//        {/* 
 //         <ul>
-//           {Courses.map((data, index) => (
-//             <li key={index}>{data.name}</li>
-//           ))}
-//         </ul>
+//         {Courses.map((data, index)=>(
+//           <li key={index}>{data.name}</li>
+//         ))}
+//         </ul> */}
+
+
+
+
 
 //       </header>
 //     </div>
@@ -44,42 +49,15 @@
 
 // export default App;
 
+
+
+
+
 // List Required a Key
 // Keys are a way to help React know how to efficiently update a list
 
-// const Developers = [
-//   {
-//     name: "raju",
-//     skills: [
-//       { name: "Angular", type: "Frontend" },
-//       { name: "ExpressJS", type: "Backend" },
-//     ],
-//   },
 
-//   {
-//     name: "bhai",
-//     skills: [
-//       { name: "React", type: "Frontend" },
-//       { name: "NodeJS", type: "Backend" },
-//     ],
-//   },
 
-//   {
-//     name: "jackie",
-//     skills: [
-//       { name: "VueJS", type: "Frontend" },
-//       { name: "PHP", type: "Backend" },
-//     ],
-//   },
-
-//   {
-//     name: "chan",
-//     skills: [
-//       { name: "Swift", type: "Frontend" },
-//       { name: "Python", type: "Backend" },
-//     ],
-//   },
-// ];
 
 import React from "react";
 import "./App.css";
@@ -113,8 +91,12 @@ function App() {
         { name: "Swift", type: "Frontend" },
         { name: "Python", type: "Backend" },
       ],
-    },
+    }
   ];
+
+
+
+
 
   return (
     <div className="App">
