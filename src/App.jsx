@@ -1,4 +1,4 @@
-// Default using lists
+// // Default using lists
 // import React from 'react';
 // import './App.css';
 
@@ -28,6 +28,12 @@
 //         <ul>
 //           {Courses.map((data) => (
 //             <li key={data.id}>{data.name}</li>
+//           ))}
+//         </ul>
+
+//         <ul>
+//           {Courses.map((data, index) => (
+//             <li key={index}>{data.name}</li>
 //           ))}
 //         </ul>
 
