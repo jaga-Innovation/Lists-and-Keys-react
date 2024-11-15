@@ -44,32 +44,41 @@
 
 // export default App;
 
-const Developers = {
-  name: "raju",
-  skills: [
-    { name: "Angular", type: "Frontend" },
-    { name: "ExpressJS", type: "Backend" },
-  ],
-
-  name: "bhai",
-  skills: [
-    { name: "React", type: "Frontend" },
-    { name: "NodeJS", type: "Backend" },
-  ],
-
-  name: "jackie",
-  skills: [
-    { name: "VueJS", type: "Frontend" },
-    { name: "PHP", type: "Backend" },
-  ],
-
-  name: "chan",
-  skills: [
-    { name: "Swift", type: "Frontend" },
-    { name: "Python", type: "Backend" },
-  ],
-
-}; 
-
 // List Required a Key
 // Keys are a way to help React know how to efficiently update a list
+
+const Developers = [
+  {
+    name: "raju",
+    skills: [
+      { name: "Angular", type: "Frontend" },
+      { name: "ExpressJS", type: "Backend" },
+    ],
+  },
+
+  {
+    name: "bhai",
+    skills: [
+      { name: "React", type: "Frontend" },
+      { name: "NodeJS", type: "Backend" },
+    ],
+  },
+
+  {
+    name: "jackie",
+    skills: [
+      { name: "VueJS", type: "Frontend" },
+      { name: "PHP", type: "Backend" },
+    ],
+  },
+
+  {
+    name: "chan",
+    skills: [
+      { name: "Swift", type: "Frontend" },
+      { name: "Python", type: "Backend" },
+    ],
+  },
+];
+
+
