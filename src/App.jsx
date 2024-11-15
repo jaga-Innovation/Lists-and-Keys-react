@@ -18,11 +18,20 @@
 //     <div className="App">
 //       <header className="App-header">
 //         <h1>React JS List and Keys</h1>
+       
+//         <ul>
+//           {Courses.map((data) => (
+//             <li>{data.name}</li>
+//           ))}
+//         </ul>
+
 //         <ul>
 //           {Courses.map((data) => (
 //             <li key={data.id}>{data.name}</li>
 //           ))}
 //         </ul>
+
+
 //       </header>
 //     </div>
 //   );
@@ -35,5 +44,8 @@
 
 
 
+
+// List Required a Key
+// Keys are a way to help React know how to efficiently update a list
 
 
